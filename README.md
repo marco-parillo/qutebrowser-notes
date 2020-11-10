@@ -8,3 +8,9 @@
 1. input.insert_mode.auto_load (Current: false) Try setting to true so when focus is on a field, you can start typing.
 1. session.lazy_restore (Current: false) Try setting it to true so as not to load all tab content at startup
 1. spellcheck.languages (Current: ) try en_US
+
+## Spell Checking
+```
+$ ls -alc /usr/share/hunspell/
+$ yay qtwebkit-plugins-git
+```
