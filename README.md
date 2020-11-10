@@ -11,6 +11,6 @@
 
 ## Spell Checking
 ```
-$ ls -alc /usr/share/hunspell/
-$ yay qtwebkit-plugins-git
+$ cd /usr/share/qutebrowser/scripts
+$ python dictcli.py install en-US
 ```
