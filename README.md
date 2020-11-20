@@ -14,3 +14,8 @@
 $ cd /usr/share/qutebrowser/scripts
 $ python dictcli.py install en-US
 ```
+
+## Turn off JavaScript?
+```
+:set content.javascript.enabled false
+```
