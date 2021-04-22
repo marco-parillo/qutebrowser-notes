@@ -7,8 +7,9 @@
 1. spellcheck.languages (Current: ["en-US"]) (may have to install dictionaries below first)
 1. tabs.background (Current: false) so I typed true in the box to the right, but maybe tabs.background false sends tabs to background
 2. tabs.mousewheel_switching (Current: true) Try setting to false so scroll always scrolls page
-3. url.default_page (Current: https://start.duckduckgo.com/)
-4. url.start_pages (Current: https://start.duckduckgo.com)
+3. tabs.new_position.unrelated (Current: last) Try setting to next so new tabs open next
+4. url.default_page (Current: https://start.duckduckgo.com/)
+5. url.start_pages (Current: https://start.duckduckgo.com)
 
 ## Spell Checking
 ```
