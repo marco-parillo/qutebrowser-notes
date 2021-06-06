@@ -22,3 +22,7 @@ $ python dictcli.py install en-US
 ```
 :set content.javascript.enabled false
 ```
+## Turn on Ad Block?
+```
+$ sudo pacman -S python-adblock
+```
