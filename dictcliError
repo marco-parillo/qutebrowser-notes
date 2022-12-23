@@ -1,0 +1,80 @@
+mparillo@mparillo-MacBookPro:/usr/share/qutebrowser/scripts$ python3 dictcli.py list
+Traceback (most recent call last):
+  File "/usr/share/qutebrowser/scripts/dictcli.py", line 268, in <module>
+    main()
+  File "/usr/share/qutebrowser/scripts/dictcli.py", line 251, in main
+    languages = available_languages()
+  File "/usr/share/qutebrowser/scripts/dictcli.py", line 165, in available_languages
+    api_list = language_list_from_api()
+  File "/usr/share/qutebrowser/scripts/dictcli.py", line 145, in language_list_from_api
+    with urllib.request.urlopen(listurl) as response:
+  File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.10/urllib/request.py", line 525, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
+    response = self.parent.error(
+  File "/usr/lib/python3.10/urllib/request.py", line 563, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.10/urllib/request.py", line 496, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.10/urllib/request.py", line 643, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+mparillo@mparillo-MacBookPro:/usr/share/qutebrowser/scripts$ qutebrowser --version
+         ______     ,,
+    ,.-"`      | ,-` |
+  .^           ||    |
+ /    ,-*^|    ||    |
+;    /    |    ||    ;-*```^*.
+;   ;     |    |;,-*`         \
+|   |     |  ,-*`    ,-"""\    \
+|    \   ,-"`    ,-^`|     \    |
+ \    `^^    ,-;|    |     ;    |
+  *;     ,-*`  ||    |     /   ;;
+    `^^`` |    ||    |   ,^    /
+          |    ||    `^^`    ,^
+          |  _,"|        _,-"
+          -*`   ****"""``
+
+qutebrowser v2.5.2
+Git commit: 
+Backend: QtWebEngine 5.15.11, based on Chromium 87.0.4280.144
+Qt: 5.15.6
+
+CPython: 3.10.9
+PyQt: 5.15.7
+
+sip: 6.6.2
+colorama: 0.4.6
+jinja2: 3.0.3
+pygments: no
+yaml: 5.4.1
+adblock: no
+PyQt5.QtWebEngineWidgets: yes
+PyQt5.QtWebEngine: 5.15.6
+PyQt5.QtWebKitWidgets: no
+pdf.js: no
+sqlite: 3.40.0
+QtNetwork SSL: OpenSSL 3.0.5 5 Jul 2022
+
+Style: Breeze::Style
+Platform plugin: wayland
+OpenGL: AMD, 4.6 (Compatibility Profile) Mesa 22.2.5
+Platform: Linux-5.19.0-21-generic-x86_64-with-glibc2.36, 64bit
+Linux distribution: Ubuntu Lunar Lobster (development branch) (ubuntu)
+Frozen: False
+Imported from /usr/lib/python3/dist-packages/qutebrowser
+Using Python from /usr/bin/python3
+Qt library executable path: /usr/lib/x86_64-linux-gnu/qt5/libexec, data path: /usr/share/qt5
+
+Paths:
+cache: /home/mparillo/.cache/qutebrowser
+config: /home/mparillo/.config/qutebrowser
+data: /home/mparillo/.local/share/qutebrowser
+runtime: /run/user/1000/qutebrowser
+system data: /usr/share/qutebrowser
+
+Autoconfig loaded: yes
+Config.py: no config.py was loaded
+Uptime: 0:00:00
