@@ -17,6 +17,7 @@
 $ cd /usr/share/qutebrowser/scripts 
 $ python dictcli.py install en-US
 ```
+If that does not work, apply this [patch](https://github.com/qutebrowser/qutebrowser/commit/f277876ce08). (sudo required).
 
 ## Turn off JavaScript?
 ```
