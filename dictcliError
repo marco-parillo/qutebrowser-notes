@@ -1,3 +1,5 @@
+Fix: https://github.com/qutebrowser/qutebrowser/commit/f277876ce08
+
 mparillo@mparillo-MacBookPro:/usr/share/qutebrowser/scripts$ python3 dictcli.py list
 Traceback (most recent call last):
   File "/usr/share/qutebrowser/scripts/dictcli.py", line 268, in <module>
