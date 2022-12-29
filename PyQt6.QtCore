@@ -1,0 +1,9 @@
+$ qutebrowser --temp-basedir
+Fatal error: PyQt6.QtCore is required to run qutebrowser but could not be imported! Maybe it's not installed?
+
+The error encountered was:
+/usr/lib/python3.10/site-packages/PyQt6/QtCore.abi3.so: undefined symbol: _ZN16QCoreApplication13compressEventEP6QEventP7QObjectP14QPostEventList, version Qt_6
+
+Please search for the python3 version of PyQt6.QtCore in your distributions packages, or see https://github.com/qutebrowser/qutebrowser/blob/master/doc/install.asciidoc
+
+If you installed a qutebrowser package for your distribution, please report this as a bug.
