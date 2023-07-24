@@ -27,3 +27,8 @@ If that does not [work](https://github.com/qutebrowser/qutebrowser/issues/7481),
 ```
 $ sudo pacman -S python-adblock
 ```
+
+## Qutebrowser not respecting /etc/hosts
+```
+c.content.dns_prefetch = False
+```
