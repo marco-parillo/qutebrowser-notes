@@ -48,8 +48,8 @@ pkgver() {
 
 build() {
     cd "$srcdir/qutebrowser"
-    python scripts/asciidoc2html.py
-    a2x -f manpage doc/qutebrowser.1.asciidoc
+#    python scripts/asciidoc2html.py
+#    a2x -f manpage doc/qutebrowser.1.asciidoc
     python setup.py build
 }
 
