@@ -19,6 +19,7 @@ makedepends=("asciidoc" "python3-setuptools")
 #            "python-pygments"
 #            "pdfjs: displaying PDF in-browser")
 optdepends=(
+            "python3-pygments" 
             "gst-libav: media playback with qt5-webkit backend"
             "gst-plugins-base: media playback with qt5-webkit backend"
             "gst-plugins-good: media playback with qt5-webkit backend"
